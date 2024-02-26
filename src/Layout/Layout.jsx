@@ -57,7 +57,7 @@ const Layout = () => {
   };
 
   return (
-    <div className="w-full h-screen flex justify-center items-center flex-column bg-blue-200">
+    <div className="w-full h-screen flex justify-center items-center flex-col bg-blue-200">
       <div className="w-[20px] pb-8">
         <h1 className="font-mono font-semibold text-4xl leading-12 tracking-wider text-left text-[#406667] uppercase">
           Splt tter
