@@ -1,8 +1,8 @@
 import React, { useCallback, useEffect, useState } from "react";
-import TextField from "./TextField";
+import TextField from "../component/TextField";
 import { FaDollarSign } from "react-icons/fa";
 import { IoPerson } from "react-icons/io5";
-import Cart from "./Cart";
+import Cart from "../component/Cart";
 import { tipTabs } from "../CustomData/data";
 
 const Layout = () => {
