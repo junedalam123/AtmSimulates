@@ -1,7 +1,29 @@
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    margin: 0; 
-}
+.slider-container {
+    width: 100%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the slider */
+    border: none;
+    position: relative; /* Make the container position relative */
+  }
+  
+  .slick-slide img {
+    width: 100%; /* Ensure images fill their container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .prev-arrow,
+  .next-arrow {
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 1; /* Ensure arrows appear above images */
+  }
+  
+  .prev-arrow {
+    left: 30px !important; /* Adjust the left position as needed */
+  }
+  
+  .next-arrow {
+    right: 30px !important; /* Adjust the right position as needed */
+  }
+  

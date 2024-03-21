@@ -1,11 +1,5 @@
+import AtmLayout from "./Layout/AtmLayout";
 
-import './App.css';
-import Layout from "./Layout/Layout"
-
-function App() {
-  return (
-    <Layout />
-  );
+export default function App() {
+  return <AtmLayout />;
 }
-
-export default App;
