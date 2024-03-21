@@ -1,6 +1,7 @@
 import React from "react";
 
 const Button = ({ text, onClick,bgColor }) => {
+  console.log(bgColor,"oooo")
   return (
     <button
       onClick={onClick}
