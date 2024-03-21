@@ -1,12 +1,17 @@
 import React from "react";
 
-const Button = ({ text, onClick,bgColor }) => {
-  console.log(bgColor,"oooo")
+const Button = ({ text, onClick, bgColor }) => {
+  const buttonStyles = {
+    backgroundColor: bgColor,
+    color: "white",
+    padding: "0.5rem 1rem",
+    border: "none",
+    borderRadius: "0.25rem",
+    cursor: "pointer",
+    transition: "background-color 0.3s ease",
+  };
   return (
-    <button
-      onClick={onClick}
-      className={`bg-${bgColor}-500 text-white px-4 py-2 rounded`}
-    >
+    <button onClick={onClick} style={buttonStyles}>
       {text}
     </button>
   );

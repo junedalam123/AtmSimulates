@@ -80,7 +80,7 @@ const Deposit = () => {
         <Button
           text="Submit"
           onClick={(e) => depositMoney(e)}
-          bgColor="green"
+          bgColor="#48bb78"
         />
         <p>Deposable Amount:{deposableAmount}</p>
       </div>

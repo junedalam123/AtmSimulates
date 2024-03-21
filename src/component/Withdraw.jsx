@@ -68,7 +68,7 @@ const Withdraw = () => {
           {currencyCount.currencyOf1000} 500 X {currencyCount.currencyOf500} 100
           X {currencyCount.currencyOf100}
         </p>
-        <Button text="Submit" onClick={handleWidthrowMoney} bgColor="green" />
+        <Button text="Submit" onClick={handleWidthrowMoney} bgColor="#48bb78" />
       </div>
     </div>
   );
